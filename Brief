@@ -1,0 +1,10 @@
+For websites to work we basically need to things one is browser on our local machine which displays the contents of th website and all the webpages and another one is server on the remote machine which contains all the data of th website . 
+
+Without getting the data the webpage we wished to view would be just blank . So we need both these machines to communicate with each other . They do communicate with each other by browser making requests for data but through a set of protocols which we call http/https (secured encrypted form of http). And as they are connected through the internet , and if server machine accepts the request , then it sends the data back to browser . 
+
+Browser understands the files sent by server and displays it as a webpage with all the contents on it.
+
+Server basically contains , HTML(structure of website) , CSS(Stylings) , JavaScript(Actual functioning) files on it i.e. the frontend side . Now that server which holds and can send data and receive requests is the one we can write in Python or other langs , like java , node etc . So the backend side is working with this server side which we can not see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.
+
+When creating a server in python , we do have an inbuilt http module , but it does have some security issues we might have to encounter manually , and rather than creating a server from scratch , we may use what we call as framework , which have most of the common issues already taken care of and provides us many tools and things inbuilt already . Two mostly used are Flask and Django . Flask is micro-framework and not very big as django .  
+
