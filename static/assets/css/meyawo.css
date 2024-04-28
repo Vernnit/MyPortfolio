@@ -12243,6 +12243,7 @@ p {
   display:inline-block;
   border-radius: 100px;
   width:100%;
+  white-space:nowrap;
 }
 
 .button-container {
