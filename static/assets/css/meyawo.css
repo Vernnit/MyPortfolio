@@ -12249,6 +12249,7 @@ p {
 .button-container {
   display: flex;
   justify-content: space-evenly;
+  justify-content:left;
 }
 
 
