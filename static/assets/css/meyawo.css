@@ -12240,6 +12240,7 @@ p {
 }
 
 .btn-rounded {
+  display:inline-block;
   border-radius: 100px;
   width:100%;
 }
