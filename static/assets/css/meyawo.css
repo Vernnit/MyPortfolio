@@ -12244,8 +12244,10 @@ p {
 }
 
 .button-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(n, 1fr);
+  gap: 10px;
+
 }
 
 .service-card {
