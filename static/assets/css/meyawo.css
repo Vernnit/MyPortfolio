@@ -12241,8 +12241,10 @@ p {
 
 .btn-rounded {
   border-radius: 100px;
-  display: flex;
+}
 
+.button-container {
+  display: flex;
 }
 
 .service-card {
