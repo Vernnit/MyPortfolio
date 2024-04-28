@@ -12245,7 +12245,7 @@ p {
 
 .button-container {
   display: grid;
-  grid-template-columns: repeat(n, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 
 }
