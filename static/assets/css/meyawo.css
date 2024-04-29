@@ -12240,10 +12240,10 @@ p {
 }
 
 .btn-rounded {
-  display:inline-block;
+  display: inline-block;
   border-radius: 100px;
-  width:100%;
-  white-space:nowrap;
+  width: 100%;
+  white-space: nowrap;
 }
 
 .button-container {
@@ -13300,6 +13300,13 @@ pre .code {
   .header-content {
     padding-left: calc(100% / 5) !important;
   }
+}
+
+.resume {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .about {
