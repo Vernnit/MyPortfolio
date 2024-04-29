@@ -12615,6 +12615,32 @@ pre .code {
   width: 300px;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  position: relative;
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: auto;
+}
+
+@page {
+  size: 21cm auto;
+  margin: 0mm;
+}
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -13361,6 +13387,13 @@ pre .code {
 /* sections */
 .section {
   padding: 70px 10px;
+}
+
+.resumesection {
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .section .section-title {
