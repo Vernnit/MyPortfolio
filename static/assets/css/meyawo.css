@@ -12623,7 +12623,7 @@ pre .code {
   float: left;
 }
 
-page {
+div.page {
   background: white;
   display: block;
   margin: 0 auto;
@@ -12631,14 +12631,16 @@ page {
   position: relative;
 }
 
-page[size="A4"] {
-  width: 21cm;
+div.page[data-size="A4"] {
+  width: 50%;
   height: auto;
+  font-size: calc(1vw + 1vh);
 }
 
 @page {
-  size: 21cm auto;
+  size: 50% auto;
   margin: 0mm;
+  font-size: calc(1vw + 1vh);
 }
 
 /*!
