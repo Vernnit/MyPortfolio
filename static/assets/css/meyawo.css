@@ -71,6 +71,20 @@ section {
   display: block;
 }
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -13392,8 +13406,7 @@ div.page[data-size="A4"] {
 }
 
 .resumesection {
-
-  height: 100vh;
+  padding: 35px 5px;
   display: flex;
   align-items: center;
 }
@@ -13403,7 +13416,7 @@ div.page[data-size="A4"] {
 }
 
 .htext {
-  font-size: 2.3vw
+  font-size: 2.3vw;
 }
 
 .section .section-title {
