@@ -12637,24 +12637,11 @@ pre .code {
   float: left;
 }
 
-div.page {
-  background: white;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-  position: relative;
-}
-
-div.page[data-size="A4"] {
+.center {
+  border: 5px solid;
+  margin: auto;
   width: 50%;
-  height: auto;
-  font-size: calc(1vw + 1vh);
-}
-
-@page {
-  size: 50% auto;
-  margin: 0mm;
-  font-size: calc(1vw + 1vh);
+  padding: 10px;
 }
 
 /*!
